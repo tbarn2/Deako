@@ -1,0 +1,94 @@
+body {
+    background-color: #959595;
+    font-family: 'Raleway', sans-serif;
+}
+div.profile {
+    padding-top: 8em;
+    color: black;
+}
+div.bg-change {
+    padding-top: 2em;
+    align-content: center;
+    margin-bottom: 5em;
+}
+nav.nav {
+    width: 100%;
+    background-color: white;
+    border-bottom: 3px solid black;
+}
+footer.footer {
+    border-top: solid 3px #97D652;
+    background-color: white;
+    font-size: 12px;
+    width: 100%;
+}
+ul.nav {
+    background-color: white;
+}
+img.logo {
+    height: 1.25em;
+}
+img.profile {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+p.text {
+    padding-top: 25%;
+}
+p.footer {
+    margin-top: 1em;
+    text-align: center;
+}
+i.footer {
+    font-size: medium;
+}
+a > h3{
+    color: black;
+    text-decoration: none;
+
+}
+#dropdown {
+    visibility: hidden;
+}
+  .navbar-default .navbar-nav>li>a:hover {
+    color: #97D652;
+}
+.navbar-collapse.collapse {
+    display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+    float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -15px !important;
+}
+
+.navbar-right {
+    float: right!important;
+}
+@media only screen and (max-width: 993px) {
+    p.text {
+        padding-top: 1em;
+    }
+    h3 {
+        font-size: small;
+    }
+    footer.footer {
+        position: relative;
+    }
+}
+@media only screen and (max-width: 497px) {
+    #dropdown {
+        position: relative;
+        visibility: visible;
+    }
+    ul.desktop {
+        position: absolute;
+        visibility: hidden;
+    }
+    a {
+        margin: 5px;
+    }
+}
